@@ -2,13 +2,13 @@
 
 use yii\helpers\Html;
 use kartik\widgets\ActiveForm;
-use vendor\istt\ticket\models\Ticket;
+use istt\ticket\models\Ticket;
 use kartik\widgets\TimePicker;
 use kartik\widgets\DatePicker;
 
 /**
  * @var yii\web\View $this
- * @var vendor\istt\ticket\models\Ticket $model
+ * @var istt\ticket\models\Ticket $model
  * @var yii\widgets\ActiveForm $form
  */
 ?>

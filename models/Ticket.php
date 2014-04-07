@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\istt\ticket\models;
+namespace istt\ticket\models;
 
 use Yii;
 use yii\base\Exception;

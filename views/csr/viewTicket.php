@@ -2,11 +2,11 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-use vendor\istt\ticket\models\Ticket;
+use istt\ticket\models\Ticket;
 
 /**
  * @var yii\web\View $this
- * @var vendor\istt\ticket\models\Ticket $model
+ * @var istt\ticket\models\Ticket $model
  */
 
 $this->title = $model->title;

@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\istt\ticket\controllers;
+namespace istt\ticket\controllers;
 
 use yii\web\Controller;
 

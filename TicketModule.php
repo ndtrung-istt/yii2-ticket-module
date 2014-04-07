@@ -1,10 +1,10 @@
 <?php
 
-namespace vendor\istt\ticket;
+namespace istt\ticket;
 
 class TicketModule extends \yii\base\Module
 {
-    public $controllerNamespace = 'vendor\istt\ticket\controllers';
+    public $controllerNamespace = 'istt\ticket\controllers';
 
     public function init()
     {

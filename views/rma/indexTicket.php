@@ -2,12 +2,12 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use vendor\istt\ticket\models\Ticket;
+use istt\ticket\models\Ticket;
 
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
- * @var vendor\istt\ticket\models\TicketSearch $searchModel
+ * @var istt\ticket\models\TicketSearch $searchModel
  */
 
 $this->title = Yii::t('ticket', 'RMA');

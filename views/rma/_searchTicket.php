@@ -5,7 +5,7 @@ use yii\widgets\ActiveForm;
 
 /**
  * @var yii\web\View $this
- * @var vendor\istt\ticket\models\TicketSearch $model
+ * @var istt\ticket\models\TicketSearch $model
  * @var yii\widgets\ActiveForm $form
  */
 ?>
