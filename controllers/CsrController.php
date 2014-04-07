@@ -7,7 +7,7 @@ use vendor\istt\ticket\models\Ticket;
 use vendor\istt\ticket\models\TicketSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\web\VerbFilter;
+use yii\filters\VerbFilter;
 
 /**
  * CsrController implements the CRUD actions for Ticket model.
@@ -21,6 +21,20 @@ class CsrController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['post'],
+                ],
+            ],
+	    'access' => [
+                'class' => \yii\filters\AccessControl::className(),
+                'rules' => [
+                    [
+                        'actions' => ['create', 'update', 'delete'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                    [
+                        'actions' => ['index', 'view'],
+                        'allow' => true,
+                    ]
                 ],
             ],
         ];
