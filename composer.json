@@ -1,0 +1,24 @@
+{
+	"name": "istt/yii2-ticket-module",
+	"description": "The user management module for Yii 2",
+	"keywords": ["istt", "ndtrung", "yii", "ticket"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nguyen Dinh Trung",
+			"email": "ndtrung@istt.com.vn",
+			"homepage": "http://istt.com.vn"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"dektrium/yii2-user": "*",
+		"kartik-v/yii2-markdown": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"istt\\ticket\\": ""
+		}
+	}
+}
