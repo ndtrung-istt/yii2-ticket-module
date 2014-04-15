@@ -140,7 +140,7 @@ class RmaController extends Controller
      */
     protected function findModel($id)
     {
-        if ($id !== null && ($model = Ticket::find($id)) !== null) {
+        if ($id !== null && ($model = Ticket::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
